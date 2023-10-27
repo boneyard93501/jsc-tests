@@ -1,0 +1,20 @@
+{
+  "name": "jsclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-aqua": "fluence aqua -i ./aqua/ -o ./src/_aqua",
+    "watch-aqua": "fluence aqua -w -i ./aqua/ -o ./src/_aqua"
+},
+"author": "",
+"license": "ISC",
+"dependencies": {
+  "@fluencelabs/js-client": "^0.1.7"
+},
+"devDependencies": {
+  "@fluencelabs/cli": "^0.9.1",
+  "ts-node": "^10.9.1",
+  "typescript": "^5.2.2"
+}
+}
