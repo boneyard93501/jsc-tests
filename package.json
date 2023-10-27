@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fluencelabs/js-client": "^0.1.7"
+    "@fluencelabs/js-client": "^0.4.1"
   },
   "devDependencies": {
     "@fluencelabs/cli": "^0.9.1",
